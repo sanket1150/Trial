@@ -1,0 +1,14 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 7px;
+}
+
+input {
+    padding: 1px 2px;
+    display: block;
+    margin-bottom: 7px;
+
+}

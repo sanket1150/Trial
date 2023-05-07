@@ -1,0 +1,19 @@
+button{
+    display: block;
+    margin: 1rem;
+    background-image: url('cat.jpeg');
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigTitle{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: cursive;
+    color: green;
+}

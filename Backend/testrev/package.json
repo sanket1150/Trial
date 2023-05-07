@@ -1,0 +1,14 @@
+{
+  "name": "testrev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rev.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
