@@ -1,0 +1,14 @@
+<%- include('header') -%>
+    <h1><%= title %></h1>
+    <div class="container">
+        <% for(let i = 0;i<items.length;i++ ) { %>
+            <h4><%= items[i] %></h4>
+            <%}%>
+    </div>
+    <div class="box">
+        <form method="post" action="/">
+            <input type="text" name="text">
+            <button type="submit" name="button" value=<%= title %>>+</button>
+        </form>
+    </div>
+    <%- include('footer') -%>

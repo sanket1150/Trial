@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejs</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="box" id="heading">
+        <h1>date is <%= Title %>
+        </h1>
+    </div>
+    <div class="box">
+        <% for(let i=0; i <text.length; i++) { if (text[i]==="" ){ continue;}%>
+            <div class="item">
+                <input type="checkbox">
+                <p>
+                    <%= text[i] %>
+                </p>
+            </div>
+        <% } %>
+
+                <form method="post" action="/">
+                    <input type="text" autocomplete="off" name="todo" placeholder="Enter text">
+                    <button type="submit" name="button" value=<%=Title%>>+</button>
+                </form>
+    </div 
+</body>
+
+</html>

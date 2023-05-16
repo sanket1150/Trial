@@ -1,0 +1,20 @@
+<%-include('partials/header')-%>
+<h1>Home</h1>
+<p class="mt-5">
+    <%= homeContent %>
+</p>
+<hr size="2">
+<% posts.forEach(function(element){ %>
+    <div class="card ">
+        <div class="card-header">
+            <h1><%=element.postTitle %></h1>
+        </div>
+        <div class="card-body">
+          <p class="card-text"><%=element.postText.substring(0,100)+"..." %></p>
+          <a href="/post/<%=element.postTitle%>" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <%});%>
+
+<%-include('partials/footer')-%>
+
